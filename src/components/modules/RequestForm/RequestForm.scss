@@ -1,0 +1,65 @@
+.request-form {
+  &__form {
+  }
+
+  &__content {
+    display: flex;
+    gap: 20px;
+    padding-block: 30px;
+    flex-wrap: wrap;
+  }
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__textarea {
+    width: 70%;
+    .textarea {
+      border-radius: 10px;
+      resize: none;
+      font-size: 24px;
+      height: 100%;
+      background-color: #e1e1e1;
+      color: #989898;
+      border: none;
+      font-family: "Manrope";
+      font-weight: 500;
+
+      &:hover {
+        outline: none;
+        border: none;
+        transition: none;
+      }
+      &:focus {
+        border: none;
+        outline: 1px solid #b4b4b4 !important;
+      }
+    }
+  }
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    p {
+      font-family: "Manrope";
+      text-align: right;
+    }
+  }
+}
+.requset-form {
+  &__text {
+    h1 {
+      font-family: "Montserrat";
+      font-weight: 600;
+      font-size: 36px;
+    }
+    p {
+      font-family: "Manrope";
+      font-size: 20px;
+    }
+  }
+}

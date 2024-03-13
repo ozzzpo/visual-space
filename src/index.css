@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  max-height: 100%;
+}
+#root {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+.ant-carousel .slick-prev,
+/* .ant-carousel .slick-next,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  font-size: inherit;
+  color: currentColor;
+}
+.ant-carousel .slick-prev::before {
+  content: "";
+}
+.ant-carousel .slick-next::before {
+  content: "";
+} */
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-prev:focus {
+  left: 10px;
+  z-index: 2;
+  color: white;
+  font-size: 20px;
+  height: 20px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 50%;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:focus,
+.ant-carousel .slick-next:hover {
+  right: 10px;
+  z-index: 2;
+  color: white;
+  font-size: 20px;
+  height: 20px;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 50%;
+  padding: 10px;
+}
+.ant-carousel .slick-prev::before {
+  content: "";
+}
+.ant-carousel .slick-next::before {
+  content: "";
+}

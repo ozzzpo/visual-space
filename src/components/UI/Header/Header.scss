@@ -1,0 +1,53 @@
+.header {
+  border-bottom: 1px solid #181818;
+  padding-block: 5px;
+  font-family: "Manrope", sans-serif;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  &__logo {
+    img {
+      width: 80%;
+    }
+  }
+
+  &__navigation {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+  }
+  &__link {
+    text-decoration: none;
+    color: #181818;
+    &--active {
+      font-weight: 700;
+    }
+  }
+
+  &__phone {
+    font-size: 20px;
+  }
+}
+@media (max-width: 626px) {
+  .header {
+    &__content {
+      justify-content: center;
+      gap: 5px;
+    }
+
+    &__logo {
+    }
+
+    &__navigation {
+    }
+
+    &__phone {
+    }
+  }
+}

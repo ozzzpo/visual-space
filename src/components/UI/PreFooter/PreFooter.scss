@@ -1,0 +1,25 @@
+.prefooter {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+  &__info {
+    font-size: 18px;
+
+    font-family: "Manrope";
+    font-weight: 500;
+  }
+
+  &__social {
+    font-size: 18px;
+    text-align: right;
+    font-family: "Manrope";
+    font-weight: 500;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 7px;
+    font-size: 25px;
+    color: #505050;
+  }
+}
